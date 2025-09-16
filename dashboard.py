@@ -1,5 +1,5 @@
 import streamlit as st
-from trading_project import config, unusual_whales, reddit, fundamentals, strategy, autopilot
+import config, unusual_whales, reddit, fundamentals
 
 # Set up the dashboard
 st.set_page_config(page_title="Trading Signals Assistant", layout="wide")
